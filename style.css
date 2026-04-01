@@ -1,0 +1,755 @@
+*{
+    margin:0;
+   font-family: arial;
+} 
+.navbar{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+.logo{
+    height: 60px;
+   width: 130px;
+}
+.amazon{
+    height: 50px;
+    width: 114px;
+    padding-top: 4px;
+    padding-left: 6px;
+    padding-right: 8px;
+    background-image: url("https://th.bing.com/th/id/OIP.cs6rsE5Ogsa4Hm_2Y6hiPwHaEK?w=329&h=185&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3");
+    background-size: cover;
+}
+.amazon:hover{
+    border: 1px solid white;
+}
+.address{
+    height: 50px;
+    width: 90px;
+    padding-left: 8px;
+    padding-right: 6px;
+    padding-top: 4px;
+   
+}
+.addressfirst{
+     color: #cccccc;
+     font-size: 14px;
+    padding-top: 10px;
+    height:40px ;
+
+}
+.addresssecond{
+    color: white;
+    font-size: 16px;
+    display: flex;
+}
+.first{
+    padding-left: 19px;
+}
+.address:hover{
+    border: 1px solid white;
+}
+.searchbar{
+    height:60px ;
+    width: 545px;
+    max-width: 650px;
+    display: flex;
+}
+.select{
+    height: 40px;
+    width: 55px;
+    padding-top: 10px;
+}
+.option{
+    height: 40px;
+    width: 55px;
+    background-color: #e6e6e6;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+    text-align: center;
+    border: none;
+}
+.search{
+    width: 545px;
+    height: 40px;
+    padding-top: 10px;
+}
+.search2{
+    width: 100%;
+    height: 38px;
+    font-size: 1rem;
+    border: none;
+}
+.icon{
+    height: 40px;
+    width: 45px;
+    background-color:#febd68;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.langauage{
+    height: 60px;
+    width: 61px;
+   
+}
+.lang{
+    height: 50px;
+    width: 61px;
+    display: flex;
+   align-items: center;
+   padding-left: 2px;
+   padding-top: 4px;
+
+    
+}
+.english{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 14px; 
+    padding-top: 17px;
+ 
+}
+.flag{
+    padding-top: 17px;
+}
+.lang:hover{
+    border: 1px solid white;
+}
+.sign{
+    height: 60px;
+    width: 140px;
+}
+.signin{
+    height: 40px;
+    width: 120px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 6px;
+    padding-top: 15px;
+    
+}
+.list{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+.login{
+    padding-left: 4px;
+    font-size: 12px;
+}
+.signin:hover{
+    border: 1px solid white;
+}
+.return{
+    height: 43px;
+    width: 80px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 2px;
+}
+.order{
+    color: white;
+}
+.return2{
+    font-size: 14px;   
+}
+.order2{
+    font-size: 16px;
+}
+.return:hover{
+    border: 1px solid white;
+}
+.cart{
+    height: 30px;
+    width: 65px;
+    color: white;
+    display: flex;
+    font-size: 30px;
+    padding-top: 13px;
+}
+.cart2{
+    font-size: 14px;
+    padding-top: 13px;
+}
+.shopp:hover{
+    border: 1px solid white;
+}
+.shopp{
+    height: 50px;
+    width: 65px;
+    padding-left: 8px;
+    padding-right: 6px;
+}
+.navbar2{
+    height: 40px;
+    background-color: #0f1111;
+    padding-left: 11px;
+    display: flex;
+}
+.panel{
+    height: 29px;
+    width: 55px;
+    color: white;
+    padding-top: 8px;
+    padding-left: 7px;
+    padding-right: 5px;
+}
+.panel:hover{
+    border: 1px solid white;
+}
+.deal{
+    height:29px ;
+    width: 100px;
+    color: white;
+    padding-left: 5px;
+    padding-top: 8px;
+    padding-right:10px ;
+}
+.deal:hover{
+    border: 1px solid white;
+}
+.prime{
+    height: 29px;
+    width: 90px;
+    color: white;
+    padding-left: 9px;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+.prime:hover{
+    border: 1px solid white;
+}
+.registry{
+    height: 29px;
+    width: 65px;
+    color: white;
+    padding-left: 9px;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+.registry:hover{
+    border: 1px solid white;
+}
+.gift{
+    height: 29px;
+    width: 83px;
+    color: white;
+    padding-left: 9px;
+    padding-right: 10px;
+    padding-top: 8px;
+}
+.gift:hover{
+    border: 1px solid white;
+}
+.customer{
+    height: 29px;
+    width: 125px;
+    color: white;
+    padding-left: 9px;
+    padding-right: 10px;
+    padding-top: 8px;
+}
+.customer:hover{
+    border: 1px solid white;
+}
+.sell{
+     height: 29px;
+    width: 31px;
+    color: white;
+    padding-left: 9px;
+    padding-top: 8px;
+}
+.sell:hover{
+    border: 1px solid white;
+}
+.image{
+    height: 500px;
+    background-image: url(amazon.jpg);
+    background-size: cover;
+}
+.msg{
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 255px;
+    margin-left: 18px;
+    margin-right: 18px;
+    font-size: 14px;
+}
+.link{
+    color: #2162a1;
+}
+.game{
+    height: 420px;
+    width: 370px;
+    background-color: white;
+    position: relative;
+    bottom: 185px;
+    margin-left: 18px;
+}
+h2{
+   padding-top: 20px;
+   padding-left: 20px;
+   font-size: 21px;
+}
+.img{
+  padding-left: 20px;
+   padding-top: 10px;
+}
+.shop{
+    padding-top: 20px;
+      padding-left: 20px;
+      font-size: 15px;
+      color: #2162a1;
+}
+.fashion{
+    height: 420px;
+    width: 370px;
+    position: relative;
+    left: 410px;
+    bottom: 605px;
+     background-color: white;
+}
+.jeans{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.tops{
+    height: 109px;
+    width: 165px;
+    position: relative;
+    left: 200px;
+    bottom: 128px;
+}
+.jean{
+    font-size: 13px;
+    padding-left: 10px;
+}
+.top{
+   font-size: 13px; 
+}
+.dress{
+    position: relative;
+    bottom: 80px;
+    padding-left: 10px;
+    width: 175px;
+}
+.dresses{
+    font-size: 13px;    
+}
+.shoes{
+    width: 165px;
+    height: 110px ;
+    position: relative;
+    bottom: 265px;
+    left: 200px;
+}
+.shoe{
+    font-size: 13px;
+}
+.deals{
+    font-size: 15px;
+    color: #2162a1;
+   padding-top: 40px; 
+}
+.section{
+    height: 700px;
+    position: relative;
+    top: 460px;
+    background-color: #e6e6e6;
+    justify-content: space-evenly;
+}
+.home{
+    height: 420px;
+    width: 370px;
+    background-color: white;
+    position: relative;
+    bottom: 588px;
+    left: 390px;
+}
+.tools{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.tool{
+    font-size: 13px;
+    padding-left: 10px;
+}
+.storage{
+    height: 109px;
+    width: 165px;
+ position: relative;
+    left: 200px;
+    bottom: 128px;
+ 
+}
+.store{
+   font-size: 13px; 
+}
+.decor{
+    position: relative;
+    bottom: 80px;
+    padding-left: 10px;
+    width: 175px;
+}
+.decors{
+    font-size: 13px;    
+}
+.discover{
+    font-size: 15px;
+    color: #2162a1;
+   padding-top: 40px; 
+}
+.bedding{
+    width: 165px;
+    height: 109px ;
+    position: relative;
+    bottom: 266px;
+    left: 200px;
+}
+.bed{
+    font-size: 13px;
+}
+.space{
+    height: 420px;
+    width: 320px;
+    background-color: white;
+    position: relative;
+    bottom: 1008px;
+    left: 780px;
+}
+
+.dining{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.dinings{
+    font-size: 13px;
+    padding-left: 10px;
+}
+.home2{
+    height: 99px;
+    width: 145px;
+ position: relative;
+   left:170px;
+    bottom: 117px;
+   
+ 
+}
+.ghar{
+   font-size: 13px; 
+}
+.kitchen{
+    position: relative;
+    bottom: 60px;
+    padding-left: 10px;
+    width: 165px;
+}
+.kitchens{
+    font-size: 13px;    
+}
+.see{
+    font-size: 15px;
+    color: #2162a1;
+   padding-top: 41px; 
+}  
+.beauty{
+    width: 145px;
+    height: 97px ;
+    position: relative;
+    bottom: 238px;
+    left: 170px;
+}  
+.health{
+    font-size: 13px;
+} 
+.newhome{
+    height: 420px;
+    width: 370px;
+    background-color: white;
+    position: relative;
+    bottom: 580px;
+    left: 18px;
+}
+.appliances{
+    height: 420px;
+    width: 320px;
+    background-color: white;
+    position: relative;
+    bottom: 1840px;
+    left: 1190px;
+}
+.trends{
+    height: 420px;
+    width: 370px;
+    background-color: white;
+    position: relative;
+    bottom: 1000px;
+    left: 410px;
+}
+.updates{
+    height: 420px;
+    width: 370px;
+    background-color: white;
+    position: relative;
+    bottom: 1420px;
+    left: 800px;
+}
+.pot{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.can{
+    height: 109px;
+    width: 165px;
+    position: relative;
+    left: 200px;
+    bottom: 128px;
+}
+.pot2{
+    font-size: 13px;
+    padding-left: 10px;
+}
+.cans{
+   font-size: 13px; 
+}
+.circle{
+    position: relative;
+    bottom: 80px;
+    padding-left: 10px;
+    width: 175px;
+}
+.circles{
+    font-size: 13px;    
+}
+.pillow{
+    width: 165px;
+    height: 109px ;
+    position: relative;
+    bottom: 265px;
+    left: 200px;
+}
+.pillowes{
+    font-size: 13px;
+}
+.latest{
+    font-size: 15px;
+    color: #2162a1;
+   padding-top: 40px; 
+   width: 180px;
+}
+.western{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.knits{
+    height: 109px;
+    width: 165px;
+    position: relative;
+    left: 200px;
+    bottom: 128px;
+}
+.westerns{
+    font-size: 13px;
+    padding-left: 10px;
+}
+.knit{
+   font-size: 13px; 
+}
+.jacket{
+    position: relative;
+    bottom: 80px;
+    padding-left: 10px;
+    width: 175px;
+}
+.jackets{
+    font-size: 13px;    
+}
+.jewellery{
+    width: 165px;
+    height: 109px ;
+    position: relative;
+    bottom: 265px;
+    left: 200px;
+}
+.jewelery{
+    font-size: 13px;
+}
+.explore{
+    font-size: 15px;
+    color: #2162a1;
+   padding-top: 40px; 
+   width: 180px;
+}
+.hamper{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.hardware{
+    height: 109px;
+    width: 165px;
+    position: relative;
+    left: 200px;
+    bottom: 128px;
+}
+.hampers{
+    font-size: 13px;
+    padding-left: 10px;
+}
+.hardwares{
+   font-size: 13px; 
+}
+.furniture{
+    position: relative;
+    bottom: 80px;
+    padding-left: 10px;
+    width: 175px;
+}
+.furnitures{
+    font-size: 13px;    
+}
+.paint{
+    width: 165px;
+    height: 109px ;
+    position: relative;
+    bottom: 267px;
+    left: 200px;
+}
+.paints{
+    font-size: 13px;
+}
+.products{
+    font-size: 15px;
+    color: #2162a1;
+   padding-top: 40px; 
+   width: 180px;
+}
+.cookers{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.cooker{
+     font-size: 15px;
+    padding-left: 12px;
+    padding-bottom: 18px;
+}
+.coffee{
+    height: 65px;
+    width: 93px;
+    position: relative;
+    left: 10px;
+}
+.cofee{
+    font-size: 15px;
+}
+.pan{
+    height: 65px;
+    width: 100px;
+    position: relative;
+    left: 110px;
+    bottom: 65px;
+}
+.pans{
+    font-size: 15px;
+}
+.kettle{
+    height: 65px;
+    width: 93px;
+    position: relative;
+    left: 215px;
+    bottom: 130px;
+}
+.kettles{
+    font-size: 15px;
+}
+.one{
+    font-size: 15px;
+    color: #2162a1;
+    padding-top: 37px;
+   height:22px ;
+   width: 250px;
+}
+.footer{
+    height: 50px;
+    background-color: #37475a;
+    position: relative;
+    top: 700px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+.footer-2{
+    height: 370px;
+     color: white;
+    background-color: #232f3e;
+    position: relative;
+    top: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+  display: block;
+  font-size: 14px;
+  color: #dddddd;
+  margin-top: 10px;
+}
+.know{
+    color: white;
+    margin-bottom: 14px;
+    margin-top: 50px;
+    
+}
+.anchor{
+    margin: 0%;
+}
+.footer-3{
+    height: 120px;
+    background-color:#232f3e ;
+    position: relative;
+    top: 700px;
+    border-top: 1px solid #3a4553;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.footer-4{
+    height: 77px;
+    background-color: #131A22;
+    position: relative;
+    top: 700px;
+    color: white;
+    font-size: 12px; 
+}
+.page{
+ display: flex;
+ justify-content: center;
+ position: relative;
+ top: 20px;
+}
+.unique{
+    padding-right: 7.200px;
+    padding-left: 7.200px;
+}
+.com{
+    text-align: center;
+}
+.affiliates{
+    position: relative;
+    top: 20px;
+}
+
+
