@@ -290,197 +290,99 @@
 }
 .link{
     color: #2162a1;
-}
-.game{
-    height: 420px;
+}.airpod{
+    height: 340px;
     width: 370px;
     background-color: white;
     position: relative;
-    bottom: 185px;
+    bottom: 100px;
     margin-left: 18px;
+    margin-bottom: 50px;
 }
 h2{
    padding-top: 20px;
    padding-left: 20px;
    font-size: 21px;
 }
-.img{
-  padding-left: 20px;
-   padding-top: 10px;
-}
-.shop{
-    padding-top: 20px;
-      padding-left: 20px;
-      font-size: 15px;
-      color: #2162a1;
-}
-.fashion{
-    height: 420px;
+
+.stick{
+    height: 340px;
     width: 370px;
     position: relative;
     left: 410px;
-    bottom: 605px;
+    bottom: 490px;
      background-color: white;
 }
-.jeans{
-    padding-left: 10px;
-    padding-top: 10px;
-}
-.tops{
-    height: 109px;
-    width: 165px;
+
+.tv{
+    height: 340px;
+    width:365px;
     position: relative;
-    left: 200px;
-    bottom: 128px;
-}
-.jean{
-    font-size: 13px;
-    padding-left: 10px;
-}
-.top{
-   font-size: 13px; 
-}
-.dress{
-    position: relative;
-    bottom: 80px;
-    padding-left: 10px;
-    width: 175px;
-}
-.dresses{
-    font-size: 13px;    
-}
-.shoes{
-    width: 165px;
-    height: 110px ;
-    position: relative;
-    bottom: 265px;
-    left: 200px;
-}
-.shoe{
-    font-size: 13px;
-}
-.deals{
-    font-size: 15px;
-    color: #2162a1;
-   padding-top: 40px; 
-}
-.section{
-    height: 700px;
-    position: relative;
-    top: 460px;
-    background-color: #e6e6e6;
+    bottom:325px;
+    background-color: white;
     justify-content: space-evenly;
+     left: 390px;
 }
-.home{
-    height: 420px;
-    width: 370px;
+.echo{
+    height: 340px;
+    width: 320px;
     background-color: white;
     position: relative;
-    bottom: 588px;
-    left: 390px;
+    bottom:665px;
+    left: 780px;
 }
-.tools{
-    padding-left: 10px;
-    padding-top: 10px;
-}
-.tool{
-    font-size: 13px;
-    padding-left: 10px;
-}
-.storage{
-    height: 109px;
-    width: 165px;
- position: relative;
-    left: 200px;
-    bottom: 128px;
- 
-}
-.store{
-   font-size: 13px; 
-}
-.decor{
-    position: relative;
-    bottom: 80px;
-    padding-left: 10px;
-    width: 175px;
-}
-.decors{
-    font-size: 13px;    
-}
-.discover{
-    font-size: 15px;
-    color: #2162a1;
-   padding-top: 40px; 
-}
-.bedding{
-    width: 165px;
-    height: 109px ;
-    position: relative;
-    bottom: 266px;
-    left: 200px;
-}
-.bed{
-    font-size: 13px;
-}
+
 .space{
     height: 420px;
     width: 320px;
     background-color: white;
     position: relative;
-    bottom: 1008px;
+    bottom: 420px;
     left: 780px;
 }
-
-.dining{
-    padding-left: 10px;
-    padding-top: 15px;
+.img{
+    height:200px;
+    width:200px;
+    padding-left:50px;
+    
 }
-.dinings{
-    font-size: 13px;
-    padding-left: 10px;
+.section{
+    height: 700px;
+    position: relative;
+    top: 133px;
+    background-color: #e6e6e6;
+    justify-content: space-evenly;
 }
-.home2{
-    height: 99px;
-    width: 145px;
- position: relative;
-   left:170px;
-    bottom: 117px;
+h3{
+    padding-left: 90px;
+     padding-top: 30px;
+}
+h4{
+    padding-left: 90px;
+    padding-top:10px;
+}
+h1{
+    color: black;
+    margin-top:20px;
+    padding-top: 270px;
+    padding-left: 20px;
+}
+button{
+   margin-left: 90px;
+   background-color: #febd68;
+   border-radius:20px;
+   width:190px;
+   height:30px;
+   margin-top:10px;
+   font-size: medium;
    
- 
 }
-.ghar{
-   font-size: 13px; 
-}
-.kitchen{
-    position: relative;
-    bottom: 60px;
-    padding-left: 10px;
-    width: 165px;
-}
-.kitchens{
-    font-size: 13px;    
-}
-.see{
-    font-size: 15px;
-    color: #2162a1;
-   padding-top: 41px; 
-}  
-.beauty{
-    width: 145px;
-    height: 97px ;
-    position: relative;
-    bottom: 238px;
-    left: 170px;
-}  
-.health{
-    font-size: 13px;
-} 
 .newhome{
     height: 420px;
     width: 370px;
     background-color: white;
     position: relative;
-    bottom: 580px;
+    bottom: 470px;
     left: 18px;
 }
 .appliances{
@@ -488,7 +390,7 @@ h2{
     width: 320px;
     background-color: white;
     position: relative;
-    bottom: 1840px;
+    bottom: 1730px;
     left: 1190px;
 }
 .trends{
@@ -496,7 +398,7 @@ h2{
     width: 370px;
     background-color: white;
     position: relative;
-    bottom: 1000px;
+    bottom: 892px;
     left: 410px;
 }
 .updates{
@@ -504,7 +406,7 @@ h2{
     width: 370px;
     background-color: white;
     position: relative;
-    bottom: 1420px;
+    bottom: 1310px;
     left: 800px;
 }
 .pot{
